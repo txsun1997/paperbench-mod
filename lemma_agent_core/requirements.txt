@@ -1,0 +1,39 @@
+# Core LLM clients
+anthropic>=0.40.0
+openai>=1.0.0
+boto3>=1.26.0
+botocore>=1.29.0
+
+# Utilities
+PyYAML>=6.0
+aiohttp>=3.8.0
+aiofiles>=23.0.0
+tenacity>=8.0.0
+
+# Tool dependencies
+pexpect>=4.9.0
+psutil>=5.9.0
+
+# Document processing
+PyPDF2>=3.0.0
+Pillow>=10.0.0
+
+# Search (optional, for WebSearch tool)
+tavily-python>=0.3.0
+
+# Logging
+loguru>=0.7.0
+
+# Testing (optional)
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Additional toolkit dependencies
+pyte>=0.8.0
+chardet>=5.0.0
+watchdog>=6.0.0
+watchfiles>=1.0.0
+httpx>=0.28.0
+pypdf>=3.17.0
+requests>=2.31.0
+tiktoken>=0.6.0

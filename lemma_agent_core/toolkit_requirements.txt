@@ -1,0 +1,10 @@
+chardet==5.2.0
+httpx==0.28.1
+loguru==0.7.3
+pexpect==4.9.0
+psutil==7.2.1
+pypdf==6.5.0
+pyte==0.8.2
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1755614211359/work
+watchdog==6.0.0
+watchfiles==1.1.1
