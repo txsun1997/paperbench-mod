@@ -1,0 +1,60 @@
+# Lemma Agent Core Configuration
+# Copy this file to config.yaml and fill in your credentials
+
+llm:
+  provider: "bedrock"  # or "anthropic"
+  model: "global.anthropic.claude-sonnet-4-5-20250929-v1:0"
+  
+  # AWS Bedrock credentials (for provider: "bedrock")
+  aws_access_key: "YOUR_AWS_ACCESS_KEY"
+  aws_secret_key: "YOUR_AWS_SECRET_KEY"
+  aws_region: "ap-northeast-1"
+  
+  # Anthropic API key (for provider: "anthropic")
+  # api_key: "YOUR_ANTHROPIC_API_KEY"
+  
+  max_tokens: 8192
+  temperature: 1.0
+  top_p: 0.95
+
+# Phase-specific LLM settings
+phase:
+  provider: "bedrock"
+  model: "global.anthropic.claude-sonnet-4-5-20250929-v1:0"
+  
+  # AWS Bedrock credentials
+  aws_access_key: "YOUR_AWS_ACCESS_KEY"
+  aws_secret_key: "YOUR_AWS_SECRET_KEY"
+  aws_region: "ap-northeast-1"
+  
+  max_tokens: 4096
+  temperature: 1.0
+  top_p: 0.95
+
+# Compression LLM settings
+compression:
+  provider: "bedrock"
+  model: "global.anthropic.claude-sonnet-4-5-20250929-v1:0"
+  
+  # AWS Bedrock credentials
+  aws_access_key: "YOUR_AWS_ACCESS_KEY"
+  aws_secret_key: "YOUR_AWS_SECRET_KEY"
+  aws_region: "ap-northeast-1"
+  
+  max_tokens: 8192
+  temperature: 1.0
+  top_p: 0.95
+
+# Token counting LLM settings
+token_count:
+  provider: "bedrock"
+  model: "global.anthropic.claude-sonnet-4-5-20250929-v1:0"
+  
+  # AWS Bedrock credentials
+  aws_access_key: "YOUR_AWS_ACCESS_KEY"
+  aws_secret_key: "YOUR_AWS_SECRET_KEY"
+  aws_region: "ap-northeast-1"
+  
+  max_tokens: 4096
+  temperature: 0.0
+  top_p: 0.95
